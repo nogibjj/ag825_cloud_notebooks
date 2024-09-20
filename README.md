@@ -24,12 +24,19 @@ The structure of this file is as follows:
     - Install / Format / Lint / Test
 - Requirements file
     - Text file (.txt) detailing the required packages to be installed for this program to run
-- main.py
-    - aboutdata(): Creates descriptive statistics about the data
+- notebook.ipynb
+    - read_data(): Reads the datafile
+    - about_data(): Descriptive satistics about the data
     - createplots(): Creates two plots describing the dataset
     - createsummary(): Creates a summary of this analysis and writes to a markdown file (summary_report.md)
-- testmain.py
-    - Tests that the functions aboutdata() and createplots() in main.py work as expected
+- script.py
+    - Houses function about_data(), createplots() and createsummary() to be reused later     
+- lib.py
+    - Houses function read_data() to be reused later
+- test_script.py
+    - Tests that the functions aboutdata(), createplots() and createsummary() work as expected
+  - test_lib.py
+    - Tests that the functions read_data() work as expected
 - medallists.csv
     - Source data in .csv format
 - summary_report.md
