@@ -35,7 +35,7 @@ The structure of this file is as follows:
     - Houses function read_data() to be reused later
 - test_script.py
     - Tests that the functions aboutdata(), createplots() and createsummary() work as expected
-  - test_lib.py
+- test_lib.py
     - Tests that the functions read_data() work as expected
 - medallists.csv
     - Source data in .csv format
