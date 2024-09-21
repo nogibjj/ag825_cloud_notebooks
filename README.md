@@ -1,4 +1,4 @@
-# Mini Project: Pandas Descriptive Statistics
+# Individual Project 1
 Adil Keku Gazder <br>
 ag825, adil.gazder@duke.edu <br>
 IDS 706: Data Engineering Systems <br>
@@ -6,7 +6,11 @@ Duke University, Fall 2024 <br >
 ##
 
 ### About the project
-[![CI](https://github.com/nogibjj/ag825_mini_project_pandas_descriptive_stats/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/ag825_mini_project_pandas_descriptive_stats/actions/workflows/hello.yml) <br>
+[![Install](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/install.yml)
+[![Format](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/format.yml)
+[![Lint](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/test.yml)
+<br>
 The aim with this project was to read a .csv file and generate summary statistics and plots describing the data. The dataset used for this project was acquired from Kaggle (Olympic Summer Games - Paris 2024 -> medallists.csv)
 
 **A walkthrough has been uploaded to this Github repo under the title: Repo walkthrough - AKG**
