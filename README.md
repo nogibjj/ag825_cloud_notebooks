@@ -9,6 +9,8 @@ Duke University, Fall 2024 <br >
 [![CI](https://github.com/nogibjj/ag825_mini_project_pandas_descriptive_stats/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/ag825_mini_project_pandas_descriptive_stats/actions/workflows/hello.yml) <br>
 The aim with this project was to read a .csv file and generate summary statistics and plots describing the data. The dataset used for this project was acquired from Kaggle (Olympic Summer Games - Paris 2024 -> medallists.csv)
 
+**A walkthrough has been uploaded to this Github repo under the title: Repo walkthrough - AKG**
+
 Link to the dataset: (https://www.kaggle.com/datasets/muhammadehsan02/olympic-summer-games-paris-2024?select=medallists.csv)
 
 ##
