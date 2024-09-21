@@ -3,7 +3,8 @@
 	pip install -r requirements.txt &&\
 	pip install ruff &&\
 	pip install nbqa &&\
-	pip install nbval
+	pip install nbval &&\
+	pip install pytest pytest-cov
 
 format:
 	black *.py #format all files	
