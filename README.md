@@ -8,7 +8,10 @@ Duke University, Fall 2024 <br >
 ##
 
 ### About the project
-
+[![Format](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/format.yml)
+[![Format](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/format.yml)
+[![Lint](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/ag825_cloud_notebooks/actions/workflows/test.yml)
 <br>
 The aim with this project was to read a .csv file and generate summary statistics and plots describing the data. The dataset used for this project was acquired from Kaggle (Olympic Summer Games - Paris 2024 -> medallists.csv)
 
