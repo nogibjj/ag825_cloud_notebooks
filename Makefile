@@ -7,17 +7,15 @@
 	pip install pytest pytest-cov
 
 format:
-	black *.py #format all files	
+	black *.ipynb #format all files	
 
 lint:
-	ruff check test_*.py && ruff check *.py
 	nbqa ruff *.ipynb
 
 test:
 	py.test --nbval *.ipynb
 
 generate_and_push:
-	python script.py
 	git config --local user.email "action@github.com"
 	git config --local user.name "GitHub Action"
 	git add .
