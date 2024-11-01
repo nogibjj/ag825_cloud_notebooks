@@ -11,7 +11,14 @@ Link to the dataset:
             (https://www.kaggle.com/datasets/muhammadehsan02/
             olympic-summer-games-paris-2024?select=medallists.csv)
 
-## Distribution of total medals achieved totally over each day of the olympics
+## Head of dataset used:
+
+
+## Summary Statistics:
+
+
+## Distribution of total medals achieved totally 
+            over each day of the olympics
 ![Data Visualization](medals_over_time.png)
 
 ## Distribution of total medals achieved per each country
