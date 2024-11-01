@@ -14,7 +14,6 @@ lint:
 	nbqa ruff *.ipynb
 
 test:
-	python -m pytest -vv --cov=main test_*.py
 	py.test --nbval *.ipynb
 
 generate_and_push:

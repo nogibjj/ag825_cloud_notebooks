@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/5fbee72a-0246-426a-a927-2c0456293bf1)
 
-# Individual Project 1
+
+# Mini Project  9: Cloud Hosted Notebook Data Manipulation
 Adil Keku Gazder <br>
 ag825, adil.gazder@duke.edu <br>
 IDS 706: Data Engineering Systems <br>
@@ -8,16 +8,13 @@ Duke University, Fall 2024 <br >
 ##
 
 ### About the project
-[![Install](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/install.yml)
-[![Format](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/format.yml)
-[![Lint](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/ag825_individual_project_1/actions/workflows/test.yml)
+
 <br>
 The aim with this project was to read a .csv file and generate summary statistics and plots describing the data. The dataset used for this project was acquired from Kaggle (Olympic Summer Games - Paris 2024 -> medallists.csv)
 
-**A walkthrough has been uploaded to this Github repo under the title: [Repo walkthrough - AKG](https://github.com/nogibjj/ag825_individual_project_1/blob/main/Repo%20Walkthrough%20-%20AKG.mp4)**
+The online .ipynb notebook can be accessed here: https://colab.research.google.com/drive/1bLn32NHoZpYl8hEkWrjCdg38u8LMrCsI#scrollTo=ecn3t85yiC12
 
-The dataset used can be accessed [here](https://www.kaggle.com/datasets/muhammadehsan02/olympic-summer-games-paris-2024?select=medallists.csv)
+The dataset used can be accessed here: https://www.kaggle.com/datasets/muhammadehsan02/olympic-summer-games-paris-2024?select=medallists.csv
 
 ##
 ### Repository Structure
@@ -37,14 +34,6 @@ The structure of this file is as follows:
     - about_data(): Descriptive satistics about the data
     - createplots(): Creates two plots describing the dataset
     - createsummary(): Creates a summary of this analysis and writes to a markdown file (summary_report.md)
-- script.py
-    - Houses function about_data(), createplots() and createsummary() to be reused later     
-- lib.py
-    - Houses function read_data() to be reused later
-- test_script.py
-    - Tests that the functions aboutdata(), createplots() and createsummary() work as expected
-- test_lib.py
-    - Tests that the functions read_data() work as expected
 - medallists.csv
     - Source data in .csv format
 - summary_report.md
